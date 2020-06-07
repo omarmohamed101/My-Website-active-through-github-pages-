@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+  background-color: #CFA89D;
+  padding-top: 20px;
+  padding-bottom: 50px;
+}
+.inline-elements {
+  display: inline;
+}
+
+#head-sec {
+  background-color: #FFFFFF;
+  height: 25vh;
+  padding-left: 200px;
+  padding-top: 20px;
+  box-sizing: border-box;
+
+}
+
+#profile-pic {
+  border-radius: 70%;
+  height: 90%;
+}
+
+.avatar {
+  box-sizing: border-box;
+  height: 100%;
+  float: left;
+
+}
+
+.links-section {
+  float: left;
+}
