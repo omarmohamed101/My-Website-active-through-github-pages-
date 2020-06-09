@@ -4,7 +4,7 @@
 }
 
 header {
-  background-color: #000;
+  background-color: #354A61;
   padding-top: 20px;
   padding-bottom: 50px;
 }
@@ -44,6 +44,13 @@ header {
     font-variant-east-asian: normal;
   line-height: 1.2;
   margin-right: 10;
+}
+
+/* to display the tag as defult because the bootstrap link changes its size for no know reason to me
+   at this moment
+  */
+.description {
+  font-size: 1.17em;
 }
 
 .links-sec {
@@ -122,4 +129,17 @@ header {
 .cool-link:hover::after {
   width: 100%;
   transition: width .3s;
+}
+
+.tabs {
+  font-size: 22px;
+  color: #35D961;
+  margin-right: 20px;
+}
+
+.tabs:hover {
+  color: #35D961;
+}
+.nav-tabs {
+  border-bottom: 0px;
 }
