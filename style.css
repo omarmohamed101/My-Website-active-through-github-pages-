@@ -147,7 +147,7 @@ header {
 }
 
 
-@media (max-width: 575.98px) {
+@media (min-width: 992px) {
 
   #head-sec {
     padding-left: 30px;
