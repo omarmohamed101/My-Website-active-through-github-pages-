@@ -16,10 +16,9 @@ header {
 #head-sec {
   background-color: #fff;
   height: 25vh;
-  padding-left: 200px;
+  padding-left: 13%;
   padding-top: 20px;
   box-sizing: border-box;
-
 }
 
 #profile-pic {
@@ -35,7 +34,7 @@ header {
 }
 
 .my-name {
-  font-size: 35px;
+  font-size: 5vh;
   font-family: 'Varela Round',sans-serif;
   font-weight: 400;
   font-variant: small-caps;
@@ -101,7 +100,9 @@ header {
 .links li:nth-child(3) a:hover {
   background-color: #040204;
 }
-
+.info-links {
+  margin-top: 45px;
+}
 .info-links li {
   display: inline-block;
 
@@ -149,8 +150,29 @@ header {
 @media (max-width: 575.98px) {
 
   #head-sec {
-    padding-left: 10px;
+    padding-left: 30px;
     padding-top: 10px;
+    height: 50vh;
+    box-sizing: border-box;
+  }
+
+  #profile-pic {
+    border-radius: 70%;
+    height: 170px;
+  }
+
+  .info-links {
+
+    margin-top: -70px;
+  }
+
+  .links-sec {
+    box-sizing: border-box;
+    clear: both;
+  }
+
+  header {
+    height:410px;
   }
 
 }
